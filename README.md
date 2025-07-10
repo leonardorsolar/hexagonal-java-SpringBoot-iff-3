@@ -436,15 +436,21 @@ Isso melhora a leitura, manutenção e testes, além de seguir melhores prática
 
 ### 📌 Próximos passos:
 
-4. **Implementar o Adapter (porta de saída)**
+4. **Implementar o Adapter (porta de saída) - clientAdapter**
+
+    - Implementação o adapter de busca de endereço via api externa.
+
+5. **Implementar o Adapter (porta de saída) - repositório**
 
     - Implementação concreta do repositório usando MongoDB.
 
-5. **Criar o Controller (porta de entrada)**
+6. **Criar o Adapter de inserção do cliente**
 
     - Para expor o endpoint REST e permitir a criação de clientes via HTTP.
 
-6. **Adicionar testes unitários para o use case.**
+7. **Criar o Controller (porta de entrada)**
+
+    - Para expor o endpoint REST e permitir a criação de clientes via HTTP.
 
 ---
 
